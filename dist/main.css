@@ -1,0 +1,84 @@
+body {
+  background-color: #101000; }
+
+#headerMover #headerProxy {
+  height: 118px;
+  background: transparent; }
+
+#header {
+  background-color: #142E57; }
+  #header .pageWidth {
+    width: 100%;
+    padding: 0; }
+
+#logoBlock {
+  padding: 0 10px; }
+
+#navigation > .pageContent {
+  height: auto; }
+
+#navigation .navTabs {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0; }
+
+#navigation .navTab.PopupOpen {
+  background: #0a182e;
+  border-radius: 0;
+  text-shadow: none;
+  color: white; }
+  #navigation .navTab.PopupOpen a {
+    color: white; }
+
+#navigation .navTab .SplitCtrl {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px); }
+
+#navigation .navLink {
+  padding: 5px 15px; }
+  #navigation .navLink:hover {
+    background-color: transparent; }
+
+#navigation .PopupClosed:hover {
+  background-color: transparent; }
+
+#navigation .navTab.selected .navLink {
+  background: transparent;
+  border: 0;
+  border-bottom: 4px solid #AAAAEE;
+  text-shadow: none;
+  color: #FFFFFF; }
+
+#navigation .navTab.selected .tabLinks {
+  top: 100%;
+  height: auto;
+  background: #1e4480; }
+  #navigation .navTab.selected .tabLinks li {
+    padding: 0; }
+  #navigation .navTab.selected .tabLinks a {
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 0;
+    text-shadow: none; }
+  #navigation .navTab.selected .tabLinks a:hover, #navigation .navTab.selected .tabLinks a:focus {
+    border: 0;
+    background: white; }
+
+#searchBar {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+  #searchBar #QuickSearch {
+    top: 0;
+    right: 10px;
+    background: transparent; }
+  #searchBar .formPopup {
+    background: transparent; }
+  #searchBar .primaryControls {
+    background: transparent; }
+  #searchBar .textCtrl {
+    border: 1px solid black;
+    border-radius: 0;
+    line-height: 1.5em; }

@@ -1,0 +1,121 @@
+body {
+    background-color: #101000;
+}
+
+#headerMover {
+
+    #headerProxy {
+        height: 118px;
+        background: transparent;
+    }
+}
+
+#header {
+    background-color: $header-bgcolor;
+
+    .pageWidth {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+#logoBlock {
+    padding: 0 10px;
+}
+
+#navigation {
+
+    > .pageContent {
+        height: auto;
+    }
+
+    .navTabs {
+        font-size: 15px;
+        border: none;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+
+    }
+    .navTab {
+
+        &.PopupOpen {
+            background: darken($header-bgcolor, 10%);
+            border-radius: 0;
+            text-shadow: none;
+            color: white;
+
+            a {
+                color: white;
+            }
+        }
+        .SplitCtrl {
+            transform: translateY(5px);
+        }
+    }
+
+    .navLink {
+        padding: 5px 15px;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    .PopupClosed:hover {
+        background-color: transparent;
+    }
+
+    .navTab.selected {
+
+        .navLink {
+            background: transparent;
+            border: 0;
+            border-bottom: 4px solid #AAAAEE;
+            text-shadow: none;
+            color: #FFFFFF;
+        }
+        .tabLinks {
+            top: 100%;
+            height: auto;
+            background: lighten($header-bgcolor, 10%);
+
+            li {
+                padding: 0;
+            }
+            a {
+                padding: 6px 10px;
+                font-size: 13px;
+                border-radius: 0;
+                text-shadow: none;
+            }
+            a:hover, a:focus {
+                border: 0;
+                background: lighten($header-bgcolor, 80%);
+            }
+        }
+    }
+}
+
+#searchBar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    #QuickSearch {
+        top: 0;
+        right: 10px;
+        background: transparent;
+    }
+    .formPopup {
+        background: transparent;
+    }
+    .primaryControls {
+        background: transparent;
+    }
+    .textCtrl {
+        border: 1px solid darken($header-bgcolor, 25%);
+        border-radius: 0;
+        line-height: 1.5em;
+    }
+}

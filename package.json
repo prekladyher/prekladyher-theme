@@ -1,0 +1,14 @@
+{
+  "name": "prekladyher-theme",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prekladyher/prekladyher-theme.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
